@@ -1,0 +1,273 @@
+html{
+    font-size: 20px;
+}
+:root{
+    --text_color:black;
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: var(--text_color);
+}
+
+
+#home{
+
+    background: url('https://picsum.photos/900/700');
+    width: 100vw; height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+   
+    
+    
+}
+#head{
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    width: 100vw;
+    z-index: 1;
+}
+
+#navbar {
+    width: 100vw;     
+    display: flex;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+
+    
+}
+
+#navbar ul li a{
+    
+    text-decoration: none;
+    border-radius: 1.8em;
+    transition: 1s;
+    padding: 1rem;
+}
+#navbar ul li a:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+.division {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 70%;
+    
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+
+.section p {
+    padding: 0rem 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+/*second About us */
+#about {
+    height: 100vh;
+    width: 100vw;
+    background: url('https://picsum.photos/900/700');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#asection{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1rem;
+    text-align:justify ;
+
+
+}
+
+/* third services */
+#services {
+    background: url('https://picsum.photos/900/700');
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+
+
+}
+
+
+#ssection {
+    margin: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 90%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+.cards{
+    display: flex;
+    width: 100%;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+
+    margin: 4% 1%; 
+    padding: 1rem;
+    border: 2px solid black;
+    
+    box-sizing: border-box;
+    width: 14rem;
+    height: 22rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0.3rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+  
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+
+}
+
+.card p {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+/* Contact us page */
+#contactus {
+    height: 100vh;
+    width: 100vw;
+    background: url('https://picsum.photos/900/700');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#csection {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+.form-container {
+
+    width: inherit;
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group {
+    margin: 1rem 0rem;
+}
+
+.all-fields {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+
+.form-group input {
+    border-radius: 1rem;
+    height: 2rem;
+    width: 100%;
+}
+
+
+.form-group textarea {
+    resize: vertical;
+    width: 100%;
+    border-radius: 1rem;
+    height: 4rem;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #218838;
+}
+
+
+
+
